@@ -1,0 +1,30 @@
+{
+  "name": "mean_app",
+  "description": "My first MEAN Application",
+  "main": "server.js",
+  "authors": [
+    "Moritz Hilberg"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "MongoDB",
+    "Express",
+    "AngualrJS",
+    "Node.js"
+  ],
+  "homepage": "https://github.com/loaded02/mean-app",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.5.8",
+    "angular-route": "1.5.8",
+    "angular-resource": "1.5.x"
+  }
+}
