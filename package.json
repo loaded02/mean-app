@@ -35,6 +35,17 @@
     "morgan": "^1.7.0",
     "passport": "^0.3.2",
     "passport-local": "^1.0.0",
-    "socket.io": "^1.4.8"
+    "socket.io": "^1.4.8",
+    "supertest": "^2.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.0.2",
+    "should": "^11.1.0",
+    "supertest": "^2.0.0",
+    "karma-cli": "^1.0.1",
+    "karma": "^0.13.22",
+    "karma-jasmine": "^0.3.8",
+    "karma-phantomjs-launcher": "~0.1.4",
+    "protractor": "^3.2.2"
   }
 }
