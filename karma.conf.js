@@ -17,6 +17,10 @@ module.exports = function(config) {
         reporters: ['progress'],
         browsers: ['PhantomJS'],
         captureTimeout: 60000,
-        singleRun: true
+        singleRun: true,
+        plugins: [
+            'karma-phantomjs-launcher',
+            'karma-jasmine'
+        ]
     });
 };
